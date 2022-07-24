@@ -1,10 +1,15 @@
 import React from 'react';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HomePage} from "./pages/homepage";
+import {path} from "./path";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path={path.home} element={<HomePage/>}/>
+        </Routes>
+      </BrowserRouter>
   );
 }
 
