@@ -1,10 +1,13 @@
 import React from 'react';
+import {Header} from "../../componnets/header";
+import {Planes} from "../../componnets/planes";
 
 export const HomePage = () => {
     return (
-        <div>
-            <h1>Hello I am Home page</h1>
-        </div>
+        <React.Fragment>
+            <Header/>
+            <Planes/>
+        </React.Fragment>
     );
 };
 

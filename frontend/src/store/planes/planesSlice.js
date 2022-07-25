@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-
+import {PayloadAction } from '@reduxjs/toolkit';
 
 const planesSlice = createSlice({
     name:'planes',

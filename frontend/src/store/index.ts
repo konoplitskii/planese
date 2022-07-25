@@ -6,3 +6,6 @@ export const store = configureStore({
         planes:planesSlice
     }
 })
+
+//types global store
+export type RootState = ReturnType<typeof store.getState>
