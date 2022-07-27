@@ -15,7 +15,7 @@ export const PlanItem = ({
             <div className="capacity">{capacity}</div>
             {planeImg && <img className="image" src={planeImg} alt={name}/>}
             <div className="info">
-                <h2 className="title">{name}</h2>
+                <h2 className="title title--small">{name}</h2>
                 <span className="price">{price}</span>
             </div>
         </Link>

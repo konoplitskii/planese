@@ -35,11 +35,19 @@
 }
 
 .title {
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.PlaneItem .title--small {
+  font-size: 18px;
 }
 
 .price {
     font-size: 30px;
     font-weight: bold;
     color: #2FB5FC;
+}
+
+.info .title--small {
+  margin: 0;
 }
